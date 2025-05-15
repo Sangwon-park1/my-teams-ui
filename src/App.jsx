@@ -9,7 +9,7 @@ function App() {
     if (!question.trim()) return;
 
     try {
-      const res = await fetch("https://webapp-lgit-databricks-hq-10.azurewebsites.net/api/messages", {
+      const res = await fetch("https://webapp-lgit-databricks-hq-03-gjach6fpbjh4eqc9.koreacentral-01.azurewebsites.net/api/messages", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
